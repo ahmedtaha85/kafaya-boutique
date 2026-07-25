@@ -52,7 +52,7 @@ export default function LoginPage() {
             <div className="text-center mb-8 flex flex-col items-center justify-center">
                 {!imageError ? (
                     <img
-                        src="/logo.png"
+                        src="/Logo.png"
                         alt="Kafaya Boutique Logo"
                         className="w-[300px] h-auto object-contain mb-3"
                         onError={() => setImageError(true)}
